@@ -4,10 +4,14 @@
 # else:
 #     print("Its Odd")
 
-value = int(input("Enter a Number: "))
-if value > 0:
-    print("Positive")
-elif value < 0:
-    print("Negative")
+try:
+    value = int(input("Enter a Number: "))
+except ValueError:
+    print("Enter value is not numbers")
 else:
-    print("Zero")
+    if value > 0:
+         print("Positive")
+    elif value < 0:
+        print("Negative")
+    else:
+      print("Zero")
