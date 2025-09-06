@@ -15,3 +15,4 @@ else:
         print(f"Moduls: {num % num1}")
     elif choice == '*':
         print(f"Multiplication: {num * num1}")
+
