@@ -10,5 +10,6 @@ if len(password) <= 5:
     print("Password length should at least 6")
 else:
     print("login Successful")"""
-str  = input("Enter a String: ")
-print(str[1:5+1:1])
+"""name  = input("Enter a String: ")
+print(name[1:5+1:1])"""
+
