@@ -5,8 +5,10 @@
 # else:
 #     print("Out of Range")
 
-password = input("Enter A Password: ")
+"""password = input("Enter A Password: ")
 if len(password) <= 5:
     print("Password length should at least 6")
 else:
-    print("login Successful")
+    print("login Successful")"""
+str  = input("Enter a String: ")
+print(str[1:5+1:1])
