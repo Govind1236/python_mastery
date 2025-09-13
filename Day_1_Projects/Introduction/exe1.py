@@ -9,9 +9,15 @@
 # result = words.split(",")
 # print(f"The Result is: {result}")
 
-email = input("Enter a Email: ")
-if "@" and "gmail" in email:
-    print("Valid Email")
+# email = input("Enter a Email: ")
+# if "@" and "gmail" in email:
+#     print("Valid Email")
+# else:
+#     print("Invalid Email")
+name = input("Enter A Name: ")
+if name == 'govind':
+    print("Decode!! Name Matched")
 else:
-    print("Invalid Email")
-print(email)
+    if name != "govind":
+        print("Your Name Doesnot Match")
+    print("Use small letters!!!!!!!")
